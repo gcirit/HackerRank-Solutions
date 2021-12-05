@@ -1,3 +1,4 @@
+package hackerRankExercises;
 
 import java.lang.reflect.Method;
 

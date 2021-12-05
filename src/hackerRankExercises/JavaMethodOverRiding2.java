@@ -1,5 +1,4 @@
-import java.util.*;
-import java.io.*;
+package hackerRankExercises;
 
 class BiCycle{
     String define_me(){
@@ -16,12 +15,11 @@ class MotorCycle extends BiCycle{
         System.out.println("Hello I am a motorcycle, I am "+ define_me());
 
         String temp=super.define_me();
-
         System.out.println("My ancestor is a cycle who is "+ temp );
     }
 
 }
-class JavaMethodOverriding2{
+class JavaMethodOverRiding2 {
     public static void main(String []args){
         MotorCycle M=new MotorCycle();
     }

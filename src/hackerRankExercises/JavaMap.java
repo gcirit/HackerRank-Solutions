@@ -1,4 +1,4 @@
-//Complete this code or write your own from scratch
+package hackerRankExercises;//Complete this code or write your own from scratch
 import java.util.*;
 import java.io.*;
 

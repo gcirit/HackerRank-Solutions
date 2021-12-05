@@ -1,3 +1,5 @@
+package hackerRankExercises;
+
 import java.util.*;
 
 public class Java1DArray_pt2 {

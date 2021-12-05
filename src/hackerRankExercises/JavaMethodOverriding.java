@@ -1,8 +1,9 @@
-import java.util.*;
+package hackerRankExercises;
+
 class Sports{
 
     String getName(){
-        return "Generic Sports";
+        return "Generic hackerRankExercises.Sports";
     }
 
     void getNumberOfTeamMembers(){
@@ -13,7 +14,7 @@ class Sports{
 class Soccer extends Sports{
     @Override
     String getName(){
-        return "Soccer Class";
+        return "hackerRankExercises.Soccer Class";
     }
 
     // Write your overridden getNumberOfTeamMembers method here

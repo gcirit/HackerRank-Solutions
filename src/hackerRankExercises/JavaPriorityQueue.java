@@ -1,9 +1,11 @@
+package hackerRankExercises;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 import java.util.PriorityQueue;
 /*
- * Create the Student and Priorities classes here.
+ * Create the hackerRankExercises.Student and hackerRankExercises.Priorities classes here.
  */
 class Student implements Comparable<Student>{
     private int id;

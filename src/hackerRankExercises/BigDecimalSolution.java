@@ -1,3 +1,5 @@
+package hackerRankExercises;
+
 import java.math.BigDecimal;
 import java.util.*;
 public class BigDecimalSolution{
@@ -11,7 +13,7 @@ public class BigDecimalSolution{
             s[i]=sc.next();
         }
         sc.close();
-        // Solution with lambda JDK 1.8 and higher
+        // hackerRankExercises.Solution with lambda JDK 1.8 and higher
         Arrays.sort(s, (o1, o2) -> {
             if (o1 == null || o2 == null) {
                 return 0;
@@ -21,7 +23,7 @@ public class BigDecimalSolution{
             return o2bd.compareTo(o1bd);
         });
 
-        //Solution JDK 1.7
+        //hackerRankExercises.Solution JDK 1.7
         //Arrays.sort(s, new Comparator<String>() {
         //     @Override
         //     public int compare(String o1, String o2) {

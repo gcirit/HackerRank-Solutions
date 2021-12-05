@@ -1,6 +1,8 @@
+package hackerRankExercises;
+
 import java.util.*;
 
-// Write your Checker class here
+// Write your hackerRankExercises.Checker class here
 class Checker implements Comparator<Player>{
     @Override
     public int compare (Player p1,Player p2){

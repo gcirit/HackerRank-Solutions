@@ -1,3 +1,5 @@
+package hackerRankExercises;
+
 import java.util.*;
 abstract class Book{
     String title;
@@ -7,7 +9,7 @@ abstract class Book{
     }
 }
 
-//Write MyBook class here
+//Write hackerRankExercises.MyBook class here
 class MyBook extends Book {
     void setTitle(String s) {
         this.title = s;
@@ -17,7 +19,7 @@ class MyBook extends Book {
 public class JavaAbstractClass{
 
     public static void main(String []args){
-        //Book new_novel=new Book(); This line prHMain.java:25: error: Book is abstract; cannot be instantiated
+        //hackerRankExercises.Book new_novel=new hackerRankExercises.Book(); This line prHMain.java:25: error: hackerRankExercises.Book is abstract; cannot be instantiated
         Scanner sc=new Scanner(System.in);
         String title=sc.nextLine();
         MyBook new_novel=new MyBook();
